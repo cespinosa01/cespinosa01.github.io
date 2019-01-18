@@ -92,31 +92,26 @@ p {
   line-height: 1em;
 }
 
-a.button2{
+a.button1{
  display:inline-block;
- padding:0.5em 3em;
- border:0.16em solid #FFFFFF;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
  margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
  box-sizing: border-box;
  text-decoration:none;
- text-transform:uppercase;
  font-family:'Roboto',sans-serif;
-font-size: 200px;
- font-weight:400;
+ font-weight:300;
  color:#FFFFFF;
  text-align:center;
- transition: all 0.15s;
+ transition: all 0.2s;
 }
-a.button2:hover{
- color:#FFFFFF;
- border-color:#FFFFFF;
-}
-a.button2:active{
- color:#FFFFFF;
- border-color:#FFFFFF;
+a.button1:hover{
+ color:#000000;
+ background-color:#FFFFFF;
 }
 @media all and (max-width:30em){
- a.button2{
+ a.button1{
   display:block;
   margin:0.4em auto;
  }
