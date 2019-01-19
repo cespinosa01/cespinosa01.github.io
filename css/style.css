@@ -91,7 +91,19 @@ p {
   display: inline-block;
   line-height: 1em;
 }
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 
+/*
 a.button1{
  display:inline-block;
  padding:0.35em 1.2em;
@@ -116,7 +128,7 @@ a.button1:hover{
   margin:0.4em auto;
  }
 }
-  /* For IE8 and earlier
+   For IE8 and earlier
 }
 
 
